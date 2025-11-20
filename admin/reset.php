@@ -7,7 +7,9 @@ if (!isset($_SESSION["loginAdmin"])) {
 
 require '../include/functions.php';
 
-$database->query("UPDATE candidate SET jumlah_suara = 0");
+$database->query("DELETE FROM candidate");
+$database->query("DELETE FROM voters");
+$database->query("DELETE FROM admin WHERE role = 'admin'");
 
 if ($database->affected_rows > 0) {
     echo "

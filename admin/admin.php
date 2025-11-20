@@ -96,7 +96,7 @@ $role = ShowsUseObj("SELECT role FROM admin WHERE username = '$username'")[0];
                     </button> </a>
                     <?php if ($role->role == "superadmin" || isset($_SESSION["superadmin"])) :  ?>
                     <a href="reset.php" onclick="return twiceConfirm()" style="text-decoration: none;"><button class="action-btn btn-danger">
-                        🗑️ Reset Voting
+                        🗑️ Reset Sistem
                     </button> </a>
                     <a href="auth/register.php"  style="text-decoration: none;"><button class="action-btn">
                     👨‍🏫 Tambahkan Admin

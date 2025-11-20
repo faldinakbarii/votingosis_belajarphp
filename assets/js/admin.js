@@ -27,9 +27,9 @@ setInterval(loadVotes, 500);
 loadVotes();
 
 function twiceConfirm() {
-    const confirm1 = confirm('Apakah anda yakin ingin mereset SEMUA suara?');
+    const confirm1 = confirm('Apakah anda yakin ingin mereset SEMUA sistem?');
     if (confirm1) {
-        const confirm2 = confirm('Sekali lagi! Apakah anda yakin mereset SEMUA suara?');
+        const confirm2 = confirm('Sekali lagi! Apakah anda yakin mereset SEMUA sistem?');
         if (confirm2) {
             return true;
         } else {
