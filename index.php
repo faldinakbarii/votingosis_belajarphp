@@ -135,7 +135,7 @@ if (isset($_POST["vote"])) {
             <!-- Kandidat 1 -->
             <div class="candidate-card">
                 <div class="candidate-photo">
-                <img src="assets/img/<?= $kandidat->foto ?>" style="width: 80%;">
+                <img src="assets/img/<?= $kandidat->foto ?>">
                 </div>
                 <div class="candidate-info">
                     <h2 class="candidate-name"><?= $kandidat->nama ?></h2>

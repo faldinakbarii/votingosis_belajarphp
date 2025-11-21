@@ -211,7 +211,7 @@ $role = ShowsUseObj("SELECT role FROM admin WHERE username = '$username'")[0];
                                     <div class="voter-actions">
                                         <a href="editVoters.php?id=<?= $voters->id ?>"><button class="btn-edit"">✏️ Edit</button></a>
                                         <a href=" deleteVoters.php?id=<?= $voters->id ?>"
-                                            onclick="confirm('Apakah anda yakin ingin menghapus data voter ini?')"><button
+                                            onclick="return confirm('Apakah anda yakin ingin menghapus data voter ini?')"><button
                                                     class="btn-delete">🗑️ Hapus</button></a>
                                     </div>
                                 </div>

@@ -185,7 +185,7 @@ $pagination = ShowsUseObj("SELECT * FROM candidate LIMIT $index, $jumlahDataSatu
                                     <div class="voter-actions">
                                         <a href="editKandidat.php?id=<?= $voters->id ?>"><button class="btn-edit">✏️ Edit</button></a>
                                         <a href=" deleteKandidat.php?id=<?= $voters->id ?>"
-                                            onclick="return confirm('Apakah anda yakin ingin menghapus data voter ini?')"><button
+                                            onclick="return confirm('Apakah anda yakin ingin menghapus data kandidat ini?')"><button
                                                     class="btn-delete">🗑️ Hapus</button></a>
                                     </div>
                                 </div>
