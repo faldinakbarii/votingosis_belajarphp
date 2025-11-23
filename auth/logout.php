@@ -1,8 +1,6 @@
 <?php 
 session_start();
-session_destroy();
-session_abort();
-$_SESSION = [];
+unset($_SESSION["loginUser"]);
 
 header("Location: ../");
 exit;
